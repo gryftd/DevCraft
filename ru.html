@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DevCraft — интернет-магазин для вашего Instagram-бизнеса</title>
+<meta name="description" content="Студенческая команда из Харькова делает интернет-магазины под ключ: каталог, оплата, Новая Почта, админка. Разработка за 1 месяц.">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a href="#top" class="logo"><img src="assets/logo.jpg" alt="DevCraft" class="logo-img"> DevCraft</a>
+    <div class="header-actions">
+      <div class="lang-switch">
+        <a href="ua.html" class="">UA</a>
+        <a href="ru.html" class="active">RU</a>
+      </div>
+      <a href="#price" class="btn btn-ghost">Цена</a>
+      <a href="https://t.me/gryftd" target="_blank" rel="noopener" class="btn btn-primary">Написать в Telegram</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow"><span class="dot"></span>DevCraft · Харьков · Web Development</span>
+        <h1>DevCraft: интернет-магазин для вашего Instagram-бизнеса</h1>
+        <p class="sub">Вместо заказов в директе: сайт с каталогом, корзиной и оплатой</p>
+        <p class="desc">Студенческая команда из Харькова делает интернет-магазины под ключ. Каталог, онлайн-оплата, Новая Почта и удобная админка. Разработка за 1 месяц, цена ниже рыночной.</p>
+        <div class="hero-cta">
+          <a href="https://t.me/gryftd" target="_blank" rel="noopener" class="btn btn-primary">Написать в Telegram</a>
+          <a href="#price" class="btn btn-ghost">Условия ↓</a>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="mock-browser">
+          <div class="mock-topbar">
+            <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+            <div class="mock-urlbar">yourshop.com/catalog</div>
+          </div>
+          <div class="mock-body">
+            <div class="mock-shop-head">
+              <div class="mock-shop-logo">SHOP</div>
+              <div class="mock-search"></div>
+              <div class="mock-cart-icon"></div>
+            </div>
+            <div class="mock-chips">
+              <div class="mock-chip on">Все</div>
+              <div class="mock-chip">Новое</div>
+              <div class="mock-chip">Скидки</div>
+            </div>
+            <div class="mock-grid">
+              <div class="mock-product"><div class="thumb"></div><div class="line"></div><div class="line short"></div><div class="price">₴649</div></div>
+              <div class="mock-product"><div class="thumb"></div><div class="line"></div><div class="line short"></div><div class="price">₴990</div></div>
+              <div class="mock-product"><div class="thumb"></div><div class="line"></div><div class="line short"></div><div class="price">₴420</div></div>
+              <div class="mock-product"><div class="thumb"></div><div class="line"></div><div class="line short"></div><div class="price">₴1 250</div></div>
+              <div class="mock-product"><div class="thumb"></div><div class="line"></div><div class="line short"></div><div class="price">₴350</div></div>
+              <div class="mock-product"><div class="thumb"></div><div class="line"></div><div class="line short"></div><div class="price">₴780</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="team-section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="dot"></span>Команда</span>
+      <h2>Кто делает ваш сайт</h2>
+      <p>Не абстрактная «команда», а 4 человека, с которыми вы напрямую общаетесь на протяжении проекта.</p>
+    </div>
+    <div class="team-grid">
+      <article class="person-card reveal">
+        <div class="person-photo">
+          <img src="assets/sasha.jpg" alt="Александр Пилипенко" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <span class="photo-fallback">АП</span>
+        </div>
+        <div class="person-info">
+          <h3>Александр Пилипенко</h3>
+          <span class="person-role">Backend / API</span>
+          <p>Серверная логика и архитектура приложения</p>
+        </div>
+      </article>
+
+      <article class="person-card reveal">
+        <div class="person-photo">
+          <img src="assets/kolganenko.jpg" alt="Максим Колганенко" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <span class="photo-fallback">МК</span>
+        </div>
+        <div class="person-info">
+          <h3>Максим Колганенко</h3>
+          <span class="person-role">Frontend / Bot</span>
+          <p>Пользовательский интерфейс и Telegram-боты</p>
+        </div>
+      </article>
+
+      <article class="person-card reveal">
+        <div class="person-photo">
+          <img src="assets/danil.jpg" alt="Даниил Медведев" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <span class="photo-fallback">ДМ</span>
+        </div>
+        <div class="person-info">
+          <h3>Даниил Медведев</h3>
+          <span class="person-role">DB / Интеграции</span>
+          <p>Базы данных и подключение внешних сервисов</p>
+        </div>
+      </article>
+
+      <article class="person-card reveal">
+        <div class="person-photo">
+          <img src="assets/vasylchenko.jpg" alt="Максим Васильченко" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <span class="photo-fallback">МВ</span>
+        </div>
+        <div class="person-info">
+          <h3>Максим Васильченко</h3>
+          <span class="person-role">Fullstack / DevOps</span>
+          <p>Полный цикл разработки, настройка и развёртывание</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+  <!-- WHO IT'S FOR -->
+  <section id="fit">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span>Для кого</span>
+        <h2>Это для вас, если вы…</h2>
+      </div>
+      <div class="fit-grid">
+        <div class="fit-card reveal"><div class="ico"><span class="vector-icon">✦</span></div><h3>Косметика и уход</h3><p>Ассортимент в сторис, а покупатели каждый день спрашивают в директе цену и наличие.</p></div>
+        <div class="fit-card reveal"><div class="ico"><span class="vector-icon">◇</span></div><h3>Детские товары</h3><p>Размеры и остатки меняются каждую неделю, а отвечать каждому вручную некогда.</p></div>
+        <div class="fit-card reveal"><div class="ico"><span class="vector-icon">↗</span></div><h3>Спортпитание и добавки</h3><p>Клиенты покупают одно и то же каждый месяц, а каждый заказ всё равно оформляется в переписке.</p></div>
+        <div class="fit-card reveal"><div class="ico"><span class="vector-icon">◌</span></div><h3>Хендмейд и декор</h3><p>Работы красивые, но клиент не видит весь каталог в одном месте и теряется в актуальном.</p></div>
+      </div>
+      <p class="fit-note reveal">Ниша не ограничивается этими примерами. Если вы продаёте товары через Instagram — решение можно адаптировать под ваш бизнес.</p>
+    </div>
+  </section>
+
+  <!-- WHAT CLIENT GETS -->
+  <section id="offer">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span>Продукт</span>
+        <h2>Что вы получите</h2>
+      </div>
+
+      <div class="showcase reveal">
+        <div class="showcase-text">
+          <span class="eyebrow"><span class="dot"></span>Каталог и корзина</span>
+          <h3>Весь ассортимент на одном сайте</h3>
+          <p>Категории, поиск, фото и цены. Клиент сам видит, что есть в наличии, и добавляет в корзину, без десяти сообщений в директе.</p>
+          <a href="https://t.me/gryftd" target="_blank" rel="noopener" class="btn btn-primary">Обсудить проект</a>
+        </div>
+        <div class="showcase-visual">
+          <div class="mock-browser">
+            <div class="mock-topbar"><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span><div class="mock-urlbar">/catalog</div></div>
+            <div class="mock-body">
+              <div class="mock-shop-head"><div class="mock-shop-logo">SHOP</div><div class="mock-search"></div><div class="mock-cart-icon"></div></div>
+              <div class="mock-chips"><div class="mock-chip on">Все</div><div class="mock-chip">Новое</div><div class="mock-chip">Скидки</div></div>
+              <div class="mock-grid">
+                <div class="mock-product"><div class="thumb"></div><div class="line"></div><div class="line short"></div><div class="price">₴649</div></div>
+                <div class="mock-product"><div class="thumb"></div><div class="line"></div><div class="line short"></div><div class="price">₴990</div></div>
+                <div class="mock-product"><div class="thumb"></div><div class="line"></div><div class="line short"></div><div class="price">₴420</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase reverse reveal">
+        <div class="showcase-text">
+          <span class="eyebrow"><span class="dot"></span>Оплата и доставка</span>
+          <h3>Оплата и доставка без ручной работы</h3>
+          <p>Клиент платит на сайте картой (LiqPay/Fondy) и сам выбирает отделение Новой Почты. Вам не нужно проверять скриншоты переводов.</p>
+          <div class="chain" style="margin-top:22px;">
+            <div class="chain-step">Заказ</div><span class="chain-arrow">→</span>
+            <div class="chain-step">Оплата</div><span class="chain-arrow">→</span>
+            <div class="chain-step">Новая Почта</div><span class="chain-arrow">→</span>
+            <div class="chain-step">Подтверждение</div>
+          </div>
+        </div>
+        <div class="showcase-visual">
+          <div class="mock-browser">
+            <div class="mock-topbar"><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span><div class="mock-urlbar">/checkout</div></div>
+            <div class="mock-body">
+              <div class="mock-cart-panel">
+                <div class="mock-cart-row"><div class="thumb"></div><div class="lines"><div class="line"></div><div class="line short"></div></div></div>
+                <div class="mock-cart-row"><div class="thumb"></div><div class="lines"><div class="line"></div><div class="line short"></div></div></div>
+                <div class="mock-cart-total"><span>Итого</span><span>₴1 639</span></div>
+                <div class="mock-btn-full">LiqPay / Fondy</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase reveal">
+        <div class="showcase-text">
+          <span class="eyebrow"><span class="dot"></span>Админка</span>
+          <h3>Управляйте магазином в одном месте</h3>
+          <p>Товары, остатки и заказы в одной удобной админке.</p>
+        </div>
+        <div class="showcase-visual">
+          <div class="mock-browser">
+            <div class="mock-topbar"><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span><div class="mock-urlbar">/admin</div></div>
+            <div class="mock-body">
+              <div class="mock-admin">
+                <div class="mock-admin-side">
+                  <div class="mock-admin-item on"></div>
+                  <div class="mock-admin-item"></div>
+                  <div class="mock-admin-item"></div>
+                  <div class="mock-admin-item"></div>
+                </div>
+                <div class="mock-admin-main">
+                  <div class="mock-stat-row">
+                    <div class="mock-stat"><div class="num">128</div><div class="lbl">Заказы</div></div>
+                    <div class="mock-stat"><div class="num">64</div><div class="lbl">Товары</div></div>
+                    <div class="mock-stat"><div class="num">12</div><div class="lbl">Мало на складе</div></div>
+                  </div>
+                  <div class="mock-table-row"><div class="lines"><div class="mock-line-generic w60"></div><div class="mock-line-generic w40"></div></div><div class="mock-status">Выполнено</div></div>
+                  <div class="mock-table-row"><div class="lines"><div class="mock-line-generic w60"></div><div class="mock-line-generic w40"></div></div><div class="mock-status">Выполнено</div></div>
+                  <div class="mock-table-row"><div class="lines"><div class="mock-line-generic w60"></div><div class="mock-line-generic w40"></div></div><div class="mock-status">Новый</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span>Процесс</span>
+        <h2>От Instagram до готового заказа</h2>
+      </div>
+      <div class="flow reveal">
+        <div class="flow-step"><div class="circle"><span class="vector-icon">◎</span></div><div class="lbl">Instagram</div><div class="desc">Клиент видит товар в сторис или ленте.</div></div>
+        <div class="flow-connector">→</div>
+        <div class="flow-step"><div class="circle"><span class="vector-icon">◈</span></div><div class="lbl">Сайт</div><div class="desc">Переходит по ссылке в ваш магазин.</div></div>
+        <div class="flow-connector">→</div>
+        <div class="flow-step"><div class="circle"><span class="vector-icon">▦</span></div><div class="lbl">Каталог</div><div class="desc">Смотрит ассортимент, фото и цены.</div></div>
+        <div class="flow-connector">→</div>
+        <div class="flow-step"><div class="circle"><span class="vector-icon">⌑</span></div><div class="lbl">Корзина</div><div class="desc">Добавляет выбранные товары и переходит к оформлению.</div></div>
+        <div class="flow-connector">→</div>
+        <div class="flow-step"><div class="circle"><span class="vector-icon">▭</span></div><div class="lbl">Оплата</div><div class="desc">Оплачивает картой онлайн — LiqPay или Fondy.</div></div>
+        <div class="flow-connector">→</div>
+        <div class="flow-step"><div class="circle"><span class="vector-icon">□</span></div><div class="lbl">Новая Почта</div><div class="desc">Выбирает удобное отделение для доставки.</div></div>
+        <div class="flow-connector">→</div>
+        <div class="flow-step"><div class="circle"><span class="vector-icon">✓</span></div><div class="lbl">Админка</div><div class="desc">Заказ сразу появляется в вашей админке.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH -->
+  <section id="tech">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span>Стек</span>
+        <h2>Технологии под капотом</h2>
+      </div>
+      <div class="tech-chips reveal">
+        <div class="tech-chip"><span class="dot"></span>ASP.NET Core</div>
+        <div class="tech-chip"><span class="dot"></span>Next.js</div>
+        <div class="tech-chip"><span class="dot"></span>PostgreSQL</div>
+        <div class="tech-chip"><span class="dot"></span>Docker</div>
+      </div>
+      <p class="tech-note reveal">Современный стек для сайта, который можно развивать после запуска.</p>
+    </div>
+  </section>
+
+  <!-- PILOT -->
+  <section id="pilot">
+    <div class="wrap">
+      <div class="pilot-block reveal">
+        <span class="eyebrow"><span class="dot"></span>Специальное предложение</span>
+        <h2>Цена ниже рыночной</h2>
+        <p>Для нас это первый большой реальный коммерческий проект. Поэтому мы заинтересованы сделать продукт, который будет идеально работать, и выкладываемся на полную.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS TIMELINE -->
+  <section id="process">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span>Разработка</span>
+        <h2>Вы видите, как развивается проект</h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="tl-item"><div class="tl-num">01</div><div><h4>Обсуждение</h4><p>Обсуждаем задачу и определяем необходимый функционал.</p></div></div>
+        <div class="tl-item"><div class="tl-num">02</div><div><h4>Проектирование</h4><p>Формируем структуру магазина и пользовательский сценарий.</p></div></div>
+        <div class="tl-item"><div class="tl-num">03</div><div><h4>Разработка</h4><p>Создаём сайт, админку и необходимые интеграции.</p></div></div>
+        <div class="tl-item"><div class="tl-num">04</div><div><h4>Проверка</h4><p>Проверяем работу основных функций.</p></div></div>
+        <div class="tl-item"><div class="tl-num">05</div><div><h4>Запуск</h4><p>Разворачиваем готовый проект.</p></div></div>
+      </div>
+      <div class="tl-highlight reveal">⏱ Регулярно показываем промежуточный результат</div>
+    </div>
+  </section>
+
+  <!-- HONEST PROMISE -->
+  <section id="honest">
+    <div class="wrap">
+      <div class="honest-card reveal">
+        <h3>У нас пока нет десятков кейсов — и мы не будем их выдумывать.</h3>
+        <p>Это наш первый большой реальный коммерческий проект. Поэтому мы заинтересованы не просто написать код, а сделать продукт, который реально будет использоваться бизнесом.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="price" class="pricing-section">
+    <div class="wrap">
+      <div class="section-head reveal center">
+        <span class="eyebrow"><span class="dot"></span>Стоимость разработки</span>
+        <h2>Три комплектации — под ваши задачи</h2>
+        <p>Вы платите за разработку один раз. Функционал можно расширять по мере роста вашего бизнеса.</p>
+      </div>
+      
+      <div class="packages">
+        <!-- Тариф 1: Разработка -->
+        <article class="package reveal">
+          <div class="package-head"><div><span class="package-label">СТАРТ</span><h3>Базовый</h3></div><strong>12 000 ₴</strong></div>
+          <p class="package-desc">Вынести каталог из Instagram на сайт и начать принимать заявки.</p>
+          <ul>
+            <li>✓ Каталог товаров и категории</li>
+            <li>✓ Корзина и оформление заказа</li>
+            <li>✓ Адаптация под мобильные</li>
+            <li>✓ Базовая админка товаров</li>
+            <li>✓ Базовый дизайн</li>
+          </ul>
+          <div class="package-note">Оплата и доставка настраиваются вручную.</div>
+          <a href="https://t.me/gryftd" target="_blank" rel="noopener" class="btn btn-ghost btn-block">Выбрать</a>
+        </article>
+  
+        <!-- Тариф 2: Разработка -->
+        <article class="package featured reveal">
+          <div class="popular">ХИТ ДЛЯ INSTAGRAM</div>
+          <div class="package-head"><div><span class="package-label">FULL</span><h3>Под ключ</h3></div><strong>17 000 ₴</strong></div>
+          <p class="package-desc">Полный цикл: клиент сам находит товар, платит картой и выбирает доставку.</p>
+          <ul>
+            <li>✓ Всё из комплектации «Старт»</li>
+            <li>✓ Оплата картой (LiqPay/Fondy)</li>
+            <li>✓ Интеграция Новой Почты (API)</li>
+            <li>✓ Поиск и фильтрация</li>
+            <li>✓ Уведомления в ваш Telegram</li>
+          </ul>
+          <div class="package-note">Оптимально для автоматизации продаж.</div>
+          <a href="https://t.me/gryftd" target="_blank" rel="noopener" class="btn btn-primary btn-block">Выбрать</a>
+        </article>
+  
+        <!-- Тариф 3: Разработка -->
+        <article class="package reveal">
+          <div class="package-head"><div><span class="package-label">PRO</span><h3>Сайт + Бот</h3></div><strong>22 000 ₴</strong></div>
+          <p class="package-desc">Максимальный пакет с Telegram-ботом для клиентов и рассылок.</p>
+          <ul>
+            <li>✓ Всё из комплектации «Full»</li>
+            <li>✓ Telegram-бот магазина</li>
+            <li>✓ Оформление заказа через бота</li>
+            <li>✓ Синхронизация БД с ботом</li>
+            <li>✓ Личный кабинет покупателя</li>
+          </ul>
+          <div class="package-note">Бот и сайт работают как единый механизм.</div>
+          <a href="https://t.me/gryftd" target="_blank" rel="noopener" class="btn btn-ghost btn-block">Выбрать</a>
+        </article>
+      </div>
+  
+      <!-- Блок ежемесячного обслуживания (теперь 3 тарифа) -->
+      <div class="monthly-retainer reveal">
+        <div class="monthly-head">
+          <h3>Ежемесячная поддержка и хостинг</h3>
+          <p>После запуска магазину нужен сервер и технический присмотр. Мы берём это на себя.</p>
+        </div>
+        <div class="monthly-grid">
+          <div class="monthly-card">
+            <h4>Базовый хостинг</h4>
+            <div class="monthly-price">500 ₴ <span>/ мес</span></div>
+            <p>Оплата серверов, SSL-сертификат, защита от сбоев и бэкапы. Магазин работает стабильно 24/7.</p>
+          </div>
+          <div class="monthly-card">
+            <h4>Контент и развитие</h4>
+            <div class="monthly-price">850 ₴ <span>/ мес</span></div>
+            <p>Хостинг + помощь с загрузкой новых товаров, замена рекламных баннеров, мелкие правки по сайту.</p>
+          </div>
+          <div class="monthly-card">
+            <h4>PRO поддержка</h4>
+            <div class="monthly-price">1 150 ₴ <span>/ мес</span></div>
+            <p>Всё из тарифа «Контент» + добавление мелкого функционала по запросу и приоритетная поддержка.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="price-foot reveal">Финальная стоимость фиксируется в договоре перед стартом работ.</div>
+    </div>
+  </section>
+
+  <!-- FAQ с подробным описанием услуг -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span>FAQ</span>
+        <h2>Вопросы, которые возникают чаще всего</h2>
+      </div>
+      <div class="reveal">
+        <div class="faq-item">
+          <button class="faq-q"><span>Что входит в базовый тариф (СТАРТ)?</span><span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Это стартовый вариант за 12 000 грн. Вы получаете полноценный сайт: каталог товаров, корзину, адаптивный дизайн для смартфонов и удобную админ-панель. Оплата и расчет стоимости доставки осуществляются вручную (клиент переводит деньги на карту).</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>В чем разница между тарифами СТАРТ и FULL?</span><span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Тариф FULL (17 000 грн) полностью автоматизирует ваши продажи. В него включена онлайн-оплата картой (LiqPay, Fondy) и автоматическая интеграция Новой Почты (выбор отделения, расчет стоимости). Вам останется только упаковать товар и отправить его, получив уведомление в Telegram.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Зачем нужен тариф PRO (Сайт + Бот)?</span><span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">В тарифе PRO (22 000 грн) вы получаете не только сайт, но и полноценного Telegram-бота. Сайт и бот работают как единый механизм с общей базой товаров и заказов. Клиенты смогут покупать ваши товары прямо в мессенджере.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Что включает в себя ежемесячная поддержка?</span><span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Сайту нужно где-то работать. Базовый тариф поддержки (500 грн/мес) включает аренду мощного сервера, защиту от сбоев и бэкапы. В тарифах за 850 и 1150 грн мы дополнительно помогаем вам наполнять сайт, менять баннеры и вносить доработки.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Сколько занимает разработка?</span><span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Мы запускаем готовый интернет-магазин ориентировочно за 1 месяц. Срок может немного меняться в зависимости от скорости согласования дизайна.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Можно ли адаптировать магазин под мой бизнес?</span><span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Да. Каталог, категории, логика корзины и внешний вид полностью адаптируются под вашу нишу — будь то косметика, одежда или хендмейд.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Как начать работу?</span><span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Напишите нам в Telegram. Расскажите, что вы продаете и как сейчас принимаете заказы. Мы проанализируем ваш бизнес и подберем оптимальный формат магазина.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="final-cta reveal">
+        <h2>Ваш Instagram уже продаёт. Давайте дадим ему собственный магазин.</h2>
+        <p>Расскажите, что вы продаёте — мы покажем, как это можно перенести в интернет-магазин.</p>
+        <div class="cta-actions">
+          <a href="https://t.me/gryftd" target="_blank" rel="noopener" class="btn btn-primary">Написать в Telegram →</a>
+          <a href="https://www.instagram.com/medve._dev/?hl=uk" target="_blank" rel="noopener" class="btn btn-ghost">Instagram →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="logo"><img src="assets/logo.jpg" alt="DevCraft" class="logo-img"> DevCraft</div>
+        <div class="footer-tag">Студенческая команда разработчиков · Харьков</div>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/medve._dev/?hl=uk" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://t.me/gryftd" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 DevCraft</span>
+      <span>Харьков, Украина</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-sticky">
+  <a href="https://t.me/gryftd" target="_blank" rel="noopener" class="btn btn-primary btn-block">Написать в Telegram</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
